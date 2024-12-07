@@ -47,9 +47,11 @@ Follow these steps to set up the project locally:
    cd ielts-live-batch
 
 2. Install dependencies:
+
     npm install
 
 3. Start the development server:
+
     npm start
 
 4. Open your browser and navigate to http://localhost:3000.

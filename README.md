@@ -63,20 +63,28 @@ Build for Production:
 
 ## Folder Structure
 
-ielts-live-batch/
+src/
+├── components/
+│   ├── CourseOverview.js
+│   ├── Features.js
+│   ├── MediaTrailers.js
+│   ├── Instructors.js
+│   ├── FAQ.js
+│   ├── Testimonials.js
+│   ├── ErrorFallback.js
+│   └── Spinner.js
+├── pages/
+│   ├── HomePage.js
+│   ├── NotFound.js
+│   └── App.js
+├── utils/
+│   ├── api.js
+│   ├── constants.js
+│   └── helpers.js
+├── styles/
+│   └── global.css
+└── App.js
 
-├── public/                # Static files
-
-├── src/                   # Source code
-
-│   ├── components/        # Reusable components
-│   ├── pages/             # Application pages
-│   ├── i18n.js            # i18next configuration
-│   ├── App.js             # Main application component
-│   └── index.js           # Entry point
-├── tailwind.config.js     # TailwindCSS configuration
-├── package.json           # Project dependencies and scripts
-└── README.md              # Project documentation
 
 ## Contributing
     Contributions are welcome! To contribute:

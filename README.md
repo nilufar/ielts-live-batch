@@ -104,8 +104,11 @@ git push origin feature/your-feature-name
 ## License
 If you have any questions or suggestions, feel free to reach out:
 
-Your Name: yeasminnilo@gmail.com
-GitHub: nilufar
+    Name: Nilufar Yeasmin
+
+    Email: yeasminnilo@gmail.com
+
+    GitHub: nilufar
 
 
 

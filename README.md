@@ -64,8 +64,11 @@ Build for Production:
 ## Folder Structure
 
 ielts-live-batch/
+
 ├── public/                # Static files
+
 ├── src/                   # Source code
+
 │   ├── components/        # Reusable components
 │   ├── pages/             # Application pages
 │   ├── i18n.js            # i18next configuration

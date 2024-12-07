@@ -55,7 +55,7 @@ Follow these steps to set up the project locally:
 4. Open your browser and navigate to http://localhost:3000.
 
 ## Usage
-    Start the Application:
+Start the Application:
     npm start
 
 Build for Production:
@@ -63,27 +63,27 @@ Build for Production:
 
 ## Folder Structure
 
-src/
-├── components/
-│   ├── CourseOverview.js
-│   ├── Features.js
-│   ├── MediaTrailers.js
-│   ├── Instructors.js
-│   ├── FAQ.js
-│   ├── Testimonials.js
-│   ├── ErrorFallback.js
-│   └── Spinner.js
-├── pages/
-│   ├── HomePage.js
-│   ├── NotFound.js
-│   └── App.js
-├── utils/
-│   ├── api.js
-│   ├── constants.js
-│   └── helpers.js
-├── styles/
-│   └── global.css
-└── App.js
+    src/
+    ├── components/
+    │   ├── CourseOverview.js
+    │   ├── Features.js
+    │   ├── MediaTrailers.js
+    │   ├── Instructors.js
+    │   ├── FAQ.js
+    │   ├── Testimonials.js
+    │   ├── ErrorFallback.js
+    │   └── Spinner.js
+    ├── pages/
+    │   ├── HomePage.js
+    │   ├── NotFound.js
+    │   └── App.js
+    ├── utils/
+    │   ├── api.js
+    │   ├── constants.js
+    │   └── helpers.js
+    ├── styles/
+    │   └── global.css
+    └── App.js
 
 
 ## Contributing

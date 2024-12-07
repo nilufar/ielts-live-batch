@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# IELTS Live Batch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+IELTS Live Batch is a React-based web application designed to manage and enhance the user experience for IELTS exam preparation. This project leverages modern tools and technologies like React, i18next, TailwindCSS, and more.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Localization Support**: Built-in multi-language support using `i18next` and `i18next-browser-languagedetector`.
+- **Responsive Design**: Designed with `TailwindCSS` for seamless responsiveness across devices.
+- **Axios Integration**: API calls made simple and efficient.
+- **React Query**: State management and caching for server-side data.
+- **Dynamic Routing**: Integrated with `react-router-dom` for smooth navigation.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **React**: Frontend framework.
+- **React Router DOM**: For client-side routing.
+- **i18next**: Internationalization and localization.
+- **Axios**: HTTP client for API requests.
+- **React Query**: Server-side state management.
+- **TailwindCSS**: Utility-first CSS framework.
+- **ESLint**: For code linting and style consistency.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to set up the project locally:
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nilufar/ielts-live-batch.git
+   cd ielts-live-batch
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open your browser and navigate to http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Usage
+    Start the Application:
+    npm start
 
-## Learn More
+Build for Production:
+    npm run build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Folder Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ielts-live-batch/
+├── public/                # Static files
+├── src/                   # Source code
+│   ├── components/        # Reusable components
+│   ├── pages/             # Application pages
+│   ├── i18n.js            # i18next configuration
+│   ├── App.js             # Main application component
+│   └── index.js           # Entry point
+├── tailwind.config.js     # TailwindCSS configuration
+├── package.json           # Project dependencies and scripts
+└── README.md              # Project documentation
 
-### Code Splitting
+Contributing
+    Contributions are welcome! To contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork the repository.
+2. Create a feature branch:
+    git checkout -b feature/your-feature-name
 
-### Analyzing the Bundle Size
+3. Commit your changes:
+git commit -m "Add your feature"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Push to the branch:
+git push origin feature/your-feature-name
 
-### Making a Progressive Web App
+5. Open a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contact
+If you have any questions or suggestions, feel free to reach out:
 
-### Advanced Configuration
+Your Name: yeasminnilo@gmail.com
+GitHub: nilufar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+

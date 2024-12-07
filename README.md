@@ -54,14 +54,14 @@ Follow these steps to set up the project locally:
 
 4. Open your browser and navigate to http://localhost:3000.
 
-Usage
+## Usage
     Start the Application:
     npm start
 
 Build for Production:
     npm run build
 
-Folder Structure
+## Folder Structure
 
 ielts-live-batch/
 ├── public/                # Static files
@@ -75,7 +75,7 @@ ielts-live-batch/
 ├── package.json           # Project dependencies and scripts
 └── README.md              # Project documentation
 
-Contributing
+## Contributing
     Contributions are welcome! To contribute:
 
 1. Fork the repository.
@@ -90,7 +90,7 @@ git push origin feature/your-feature-name
 
 5. Open a pull request.
 
-Contact
+## License
 If you have any questions or suggestions, feel free to reach out:
 
 Your Name: yeasminnilo@gmail.com

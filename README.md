@@ -55,7 +55,7 @@ Follow these steps to set up the project locally:
 4. Open your browser and navigate to http://localhost:3000.
 
 ## Usage
-Start the Application:
+## Start the Application:
     npm start
 
 ## Build for Production:

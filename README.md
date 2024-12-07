@@ -58,7 +58,7 @@ Follow these steps to set up the project locally:
 Start the Application:
     npm start
 
-Build for Production:
+## Build for Production:
     npm run build
 
 ## Folder Structure
